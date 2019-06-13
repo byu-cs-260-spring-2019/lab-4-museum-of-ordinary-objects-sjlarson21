@@ -15,6 +15,7 @@ var itemsRef = db.collection('items');
 
 app.post('/api/items', async (req, res) => {
     try {
+        console.log("Inside POST");
         let querySnapshot = await itemsRef.get();
         let numRecords = querySnapshot.docs.length;
         let item = {

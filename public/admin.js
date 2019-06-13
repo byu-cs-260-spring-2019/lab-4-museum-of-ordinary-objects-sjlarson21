@@ -2,6 +2,7 @@ var app = new Vue({
   el: '#admin',
   data: {
     title: "",
+
     selected:  "",
     addItem: null,
     photos: [
@@ -13,6 +14,10 @@ var app = new Vue({
       {name: 'scissors', id: 6, path: '/images/scissors.jpg'},
       {name: 'shovel', id: 7, path: '/images/shovel.jpg'},
       {name: 'slinky', id: 8, path: '/images/slinky.jpg'},
+      {name: 'tennisball', id: 9, path: '/images/tennisball.jpg'},
+      {name: 'fork', id: 10, path: '/images/fork.jpg'},
+      {name: 'mug', id: 11, path: '/images/mug.jpeg'},
+      {name: 'comb', id: 12, path: '/images/comb.jpg'},
     ],
     items: [],
     findTitle: "",
